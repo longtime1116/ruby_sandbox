@@ -21,3 +21,20 @@ end
 #rescue => e
 #  p e
 #end
+
+
+
+
+############################################
+
+
+def multi3
+  {subscription: 1, term_number: 2}
+end
+
+begin
+  sub = multi3[:subscription]
+  term_number = multi3[:term_number]
+  p sub
+  p term_number
+end
