@@ -58,10 +58,6 @@ def find_same_records(element, sorted_records, sorted_elements, position)
   sorted_records[start..last]
 end
 
-def find_same_word_records(word, word_sorted_records)
-  word_sorted_records.select {|record| record[0] == word}
-end
-
 def find_related_pronounces_r(processed_pronounces, pronounces, tansi_records, pronounce_sorted_records, sorted_pronounces, word_sorted_records, sorted_words)
   return [] if pronounces.empty?
   return [] if (pronounces - processed_pronounces).empty?
