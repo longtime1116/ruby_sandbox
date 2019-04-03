@@ -1,0 +1,57 @@
+Measure Mode: wall_time
+Thread ID: 70209885182340
+Fiber ID: 70209881529560
+Total: 19.248223
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+ 33.58     17.735     6.464     0.000    11.270   300000   Array#map
+ 29.71      5.719     5.719     0.000     0.000 31800000   Hash#[]
+ 22.09      7.199     4.252     0.000     2.946   700004   Array#each
+  6.24      1.200     1.200     0.000     0.000  9900000   Fixnum#==
+  4.96      0.955     0.955     0.000     0.000   100000   Array#-
+  1.43     19.070     0.276     0.000    18.794   100000   Object#similar_items_excluding_shown_series_items
+  0.59      0.113     0.113     0.000     0.000   700000   Array#<<
+  0.58     19.244     0.111     0.000    19.134      221   Integer#times
+  0.19      0.037     0.037     0.000     0.000   100000   Array#take
+  0.16      0.032     0.032     0.000     0.000   200000   Array#empty?
+  0.11      0.021     0.021     0.000     0.000   100000   Fixnum#%
+  0.10      0.020     0.020     0.000     0.000   100000   Fixnum#+
+  0.10      0.019     0.019     0.000     0.000   100000   Array#length
+  0.09      0.016     0.016     0.000     0.000   100000   Fixnum#<
+  0.02      0.004     0.004     0.000     0.000    11220   Hash#[]=
+  0.01      0.002     0.002     0.000     0.000    11100   Fixnum#to_s
+  0.01      0.002     0.002     0.000     0.000      100   Kernel#p
+  0.00      0.000     0.000     0.000     0.000      100   String#inspect
+  0.00      0.012     0.000     0.000     0.012      220   Object#build_single_hash
+  0.00      0.012     0.000     0.000     0.012        2   Range#each
+  0.00      0.000     0.000     0.000     0.000      100   Fixnum#/
+  0.00     19.248     0.000     0.000    19.248        2   [global]#[no method]
+  0.00      0.000     0.000     0.000     0.000       10   Module#class_eval
+  0.00      0.000     0.000     0.000     0.000        6   IO#set_encoding
+  0.00      0.000     0.000     0.000     0.000       12   Module#attr_reader
+  0.00      0.000     0.000     0.000     0.000       82   Module#method_added
+  0.00      0.000     0.000     0.000     0.000        1   Module#attr_accessor
+  0.00      0.000     0.000     0.000     0.000        2   MonitorMixin#mon_enter
+  0.00      0.000     0.000     0.000     0.000        9   BasicObject#singleton_method_added
+  0.00      0.012     0.000     0.000     0.012        2   Enumerable#map
+  0.00      0.000     0.000     0.000     0.000        8   Class#inherited
+  0.00      0.000     0.000     0.000     0.000        3   Module#append_features
+  0.00      0.003     0.000     0.000     0.003        4  *Kernel#require
+  0.00      0.000     0.000     0.000     0.000        2   MonitorMixin#mon_check_owner
+  0.00      0.000     0.000     0.000     0.000        2   <Module::Gem>#find_unresolved_default_spec
+  0.00      0.000     0.000     0.000     0.000        2   Thread::Mutex#unlock
+  0.00      0.000     0.000     0.000     0.000        2   Thread::Mutex#lock
+  0.00      0.000     0.000     0.000     0.000        2   <Class::Gem::Specification>#unresolved_deps
+  0.00      0.000     0.000     0.000     0.000        2   Kernel#respond_to?
+  0.00      0.000     0.000     0.000     0.000        2   MonitorMixin#mon_exit
+  0.00      0.000     0.000     0.000     0.000        3   Module#include
+  0.00      0.000     0.000     0.000     0.000        6   <Class::Thread>#current
+  0.00      0.000     0.000     0.000     0.000        1   Object#build_series_items
+  0.00      0.012     0.000     0.000     0.012        1   Object#build_similar_items
+  0.00      0.000     0.000     0.000     0.000        1   Module#module_function
+  0.00      0.000     0.000     0.000     0.000        2   <Module::Gem>#suffixes
+  0.00      0.000     0.000     0.000     0.000        1   Module#private
+  0.00      0.000     0.000     0.000     0.000        3   Module#included
+
+* indicates recursively called methods
