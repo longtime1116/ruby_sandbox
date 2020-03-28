@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
+    slack-incoming-webhooks (0.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nokogiri
+  slack-incoming-webhooks
+
+RUBY VERSION
+   ruby 2.7.0p0
+
+BUNDLED WITH
+   2.1.2
